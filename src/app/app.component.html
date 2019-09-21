@@ -1,0 +1,6 @@
+<div> Passing data from Child to Parent </div>
+
+<div> This message is from Child: {{message}}</div>
+<app-child (childEvent)="message= $event">
+
+<router-outlet></router-outlet>
